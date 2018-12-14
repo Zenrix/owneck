@@ -1,0 +1,17 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/naturePack_030.obj-e46631c1cb42a6460e5d738cc2cf4970.mesh"
+
+[deps]
+
+files=[ "res://.import/naturePack_030.obj-e46631c1cb42a6460e5d738cc2cf4970.mesh" ]
+
+source_file="res://assets/tileMapStuff/naturePack_030.obj"
+dest_files=[ "res://.import/naturePack_030.obj-e46631c1cb42a6460e5d738cc2cf4970.mesh", "res://.import/naturePack_030.obj-e46631c1cb42a6460e5d738cc2cf4970.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
