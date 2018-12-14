@@ -7,7 +7,7 @@
 
 extents = Vector3( 1, 1, 1 )
 
-[node name="player3d" type="KinematicBody"]
+[node name="player3d" type="KinematicBody" index="0"]
 
 input_ray_pickable = true
 input_capture_on_drag = false
@@ -76,6 +76,15 @@ fov = 70.0
 size = 1.0
 near = 0.05
 far = 100.0
+_sections_unfolded = [ "Transform" ]
+
+[node name="groundFinder" type="RayCast" parent="." index="3"]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+enabled = false
+exclude_parent = true
+cast_to = Vector3( 0, -1, 0 )
+collision_mask = 1
 _sections_unfolded = [ "Transform" ]
 
 
