@@ -2,14 +2,14 @@
 
 importer="wavefront_obj"
 type="Mesh"
-path="res://.import/naturePack_049.obj-16d923f95995e35fe37d4a5ea52f531c.mesh"
+path="res://.import/naturePack_049.obj-4f304880ea2a28ba6ba97bc27cb94d8b.mesh"
 
 [deps]
 
-files=[ "res://.import/naturePack_049.obj-16d923f95995e35fe37d4a5ea52f531c.mesh" ]
+files=[ "res://.import/naturePack_049.obj-4f304880ea2a28ba6ba97bc27cb94d8b.mesh" ]
 
-source_file="res://models/forestModelsOBJ/naturePack_049.obj"
-dest_files=[ "res://.import/naturePack_049.obj-16d923f95995e35fe37d4a5ea52f531c.mesh", "res://.import/naturePack_049.obj-16d923f95995e35fe37d4a5ea52f531c.mesh" ]
+source_file="res://Models/forestModelsOBJ/naturePack_049.obj"
+dest_files=[ "res://.import/naturePack_049.obj-4f304880ea2a28ba6ba97bc27cb94d8b.mesh", "res://.import/naturePack_049.obj-4f304880ea2a28ba6ba97bc27cb94d8b.mesh" ]
 
 [params]
 
