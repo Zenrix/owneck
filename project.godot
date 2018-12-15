@@ -11,9 +11,5 @@ config_version=3
 [application]
 
 config/name="owneck"
-run/main_scene="res://root.tscn"
+run/main_scene="res://scenes/root.tscn"
 config/icon="res://icon.png"
-
-[rendering]
-
-environment/default_environment="res://default_env.tres"
