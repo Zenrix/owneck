@@ -2,17 +2,29 @@ extends KinematicBody
 
 # class member variables go here, for example:
 var motion = Vector3(0, 0, 0)
-var speed = 5
+var speed = 1
+var distanceFromGround
 
 var mousePosition
 var relativeMousePosition
 
 func _ready():
-	# Called when the node is added to the scene for the first time.
-	# Initialization here
+	$groundFinder.set_enabled(true)
 	pass
 
 func _process(delta):
+	### Maintain distance from the ground. Enables use of ramps.
+	
+	distanceFromGround = self.translation.y - $groundFinder.get_collision_point().y
+	if(distanceFromGround < 2):
+		print("banana chips")
+		print(distanceFromGround)
+		move_and_collide(motion + Vector3(0, 2, 0) - Vector3(0, self.translation.y, 0))
+	if(distanceFromGround > 2):
+		print("TOO FAR")
+		print(distanceFromGround)
+		move_and_collide(motion - Vector3(0, self.translation.y, 0) - Vector3(0, 2, 0))
+	
 	### Movement
 	if Input.is_action_pressed("ui_up"):
 		motion.z = -1
